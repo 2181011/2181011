@@ -1,0 +1,84 @@
+.layout1 {
+    display : fixed;
+    margin-top: 10px;
+    float: left;
+}
+
+.title {
+    font-size: 2rem;
+    width: 250%;
+    height: 80px;
+    background-color: #38b4d0;
+    text-align: center;
+}
+
+.aside {
+    font-size: 2rem;
+    width: 250%;
+    height: 80%;
+    background-color: white;
+}
+
+.li-test {
+    margin-top: 10px;
+}
+
+.layout2 {
+    width: 80%;
+    height: 800px;
+    float: right;
+
+}
+
+.layout3 {
+    display : stack;
+    float: right;
+    margin-right: 100px;
+}
+
+.img1 {
+    width: 350px;
+    height: 350px;
+    border : 1px solid black;
+    background-color: #fff7ec;
+    margin-top: 10px;
+}
+
+
+.img1-box {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.exp1 {
+    font-size: 1rem;
+    width: 350px;
+    height: 40px;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 1.5rem;
+    border : 1px solid black;
+    background-color: #fff7ec;
+}
+
+
+
+
+.footer {
+    position: fixed;
+    bottom : 0;
+    width: 100%;
+    height: 5%;
+    background-color: #a9e2f5;
+    text-align: center;
+}
+
+
+
+/* a 태그 */
+
+a {
+    text-decoration: none;
+    color: black;
+}
