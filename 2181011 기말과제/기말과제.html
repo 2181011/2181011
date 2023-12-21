@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>기말 과제</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,700">
+    <link rel="stylesheet" href="css/home.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        // 페이지 로드 후 실행되는 함수
+        $(document).ready(function() {
+            // 네비게이션 메뉴 클릭 시 해당 섹션으로 스크롤 이동
+            $('nav ul li a').on('click', function(e) {
+                e.preventDefault();
+                var target = $(this).attr('href');
+                $('html, body').animate({
+                    scrollTop: $(target).offset().top
+                }, 500);
+            });
+        });
+    </script>
+</head>
+<body>
+    <div class="layout1">
+        <div class="title "> Simple Blog </div>
+        <div class="aside ">
+            <ul>
+                <li class=" li-test "> <a href="기말고사2.html  ">사진1</a> </li>
+                <li class=" li-test "> <a href="기말고사2.html  ">사진2</a> </li>
+                <li class=" li-test "> <a href="기말고사2.html  ">사진3</a> </li>
+                <li class=" li-test "> <a href="기말고사2.html  ">사진4</a> </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="layout2">
+        <div class="layout3">
+            <div class="img1 "> <img class="img1-box" src="img/img1.png"> </div>
+            <div class="exp1 "> <a href="기말고사2.html">바로가기</a> </div>
+        </div>
+        <div class="layout3">
+            <div class="img1 "> <img class="img1-box" src="img/img2.png"> </div>
+            <div class="exp1 "> <a href="기말고사2.html">바로가기</a> </div>
+        </div>
+        <div class="layout3">
+            <div class="img1 "> <img class="img1-box" src="img/img3.png"> </div>
+            <div class="exp1 "> <a href="기말고사2.html">바로가기</a> </div>
+        </div>
+        <div class="layout3">
+            <div class="img1 "> <img class="img1-box" src="img/img4.png"> </div>
+            <div class="exp1 "> <a href="기말고사2.html">바로가기</a> </div>
+        </div>
+        <div class="layout3">
+            <div class="img1 "> <img class="img1-box" src="img/img5.png"> </div>
+            <div class="exp1 "> <a href="기말고사2.html">바로가기</a> </div>
+        </div>
+        <div class="layout3">
+            <div class="img1 "> <img class="img1-box" src="img/img6.png"> </div>
+            <div class="exp1 "> <a href="기말고사2.html">바로가기</a> </div>
+        </div>
+        </div>
+
+</main>
+<div class="footer">
+    <p>&copy; 2023 Simple Blog. All rights reserved.</p>
+</div>
+</body>
+</html>
